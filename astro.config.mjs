@@ -11,7 +11,7 @@ export default defineConfig({
     vue(),
     react(),
     storyblok({
-      accessToken: 'OsvNv534kS2nivAAj1EPVgtt',
+      accessToken: 'rMV4ltGOi6I2SAx3lrg3rQtt',
       apiOptions: {
         cache: { clear: 'auto', type: 'memory' },
       },
@@ -22,10 +22,6 @@ export default defineConfig({
         feature: 'storyblok/Feature',
         grid: 'storyblok/Grid',
         teaser: 'storyblok/Teaser',
-        vue_counter: 'storyblok/VueCounter',
-        svelte_counter: 'storyblok/SvelteCounter',
-        react_counter: 'storyblok/ReactCounter',
-        'new-component': 'storyblok/NewComponent',
       },
     }),
     tailwind(),
