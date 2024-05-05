@@ -19,9 +19,7 @@ export default defineConfig({
       enableFallbackComponent: true,
       components: {
         page: 'storyblok/Page',
-        feature: 'storyblok/Feature',
-        grid: 'storyblok/Grid',
-        teaser: 'storyblok/Teaser',
+        Hero: 'storyblok/Hero',
       },
     }),
     tailwind(),
